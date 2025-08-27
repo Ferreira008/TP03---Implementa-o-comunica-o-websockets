@@ -10,7 +10,8 @@ MODOS:
 -INTERFACE
 1. Certifique-se de ter Python 3.8+ instalado em sua máquina.
 2. Instale as dependências necessárias com o comando no CMD:
-   pip install customtkinter pillow tk
+   sudo apt-get install python3-tk (Isso é somente se for instalar no Linux)
+   pip3 install customtkinter pillow websockets
 3. Extraia o conteúdo do arquivo Jogo_NFL.zip para uma pasta local.
 4. Navegue até o diretório do projeto no terminal.
 5. Execute o arquivo principal por meio da IDE de sua preferência. 
@@ -24,11 +25,8 @@ O jogo pode ser jogado no modo multiplayer via terminal, utilizando servidor.py 
 - python3 servidor.py 
 
 - CLIENTE:
-- No Linux, instale o suporte a ambiente virtuais (caso necessário):
-- sudo apt install python3-venv
-- python3  -m venv venv
-- source venv\bin\activate
-- python jogo.py 
+- Abra dois prompt de comando na pasta do projeto para executar o arquivo do cliente com o seguinte comando: 
+- python3 jogo.py 
 
 
 
